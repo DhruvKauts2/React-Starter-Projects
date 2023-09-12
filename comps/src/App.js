@@ -1,22 +1,31 @@
 import Button from "./Button";
-
+import { GoBell } from "react-icons/go";
 function App() {
+  const handleClick = () => {
+    console.log("Click!");
+  };
+
   return (
     <div>
       <div>
-        <Button>Aaa</Button>
+        <Button primary rounded onClick class={handleClick} className="mb-5">
+          <GoBell />
+          Aaa
+        </Button>
       </div>
       <div>
-        <Button>Bbb</Button>
+        <Button secondary>Bbb</Button>
       </div>
       <div>
-        <Button>Ccc</Button>
+        <Button warning>Ccc</Button>
       </div>
       <div>
-        <Button>Ddd</Button>
+        <Button success>Ddd</Button>
       </div>
       <div>
-        <Button>Eee</Button>
+        <Button outline danger>
+          Eee
+        </Button>
       </div>
     </div>
   );
