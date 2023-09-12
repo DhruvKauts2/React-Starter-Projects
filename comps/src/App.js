@@ -1,34 +1,26 @@
-import Button from "./Button";
-import { GoBell } from "react-icons/go";
+import Accordion from "./components/Accordion";
 function App() {
-  const handleClick = () => {
-    console.log("Click!");
-  };
-
-  return (
-    <div>
-      <div>
-        <Button primary rounded onClick class={handleClick} className="mb-5">
-          <GoBell />
-          Aaa
-        </Button>
-      </div>
-      <div>
-        <Button secondary>Bbb</Button>
-      </div>
-      <div>
-        <Button warning>Ccc</Button>
-      </div>
-      <div>
-        <Button success>Ddd</Button>
-      </div>
-      <div>
-        <Button outline danger>
-          Eee
-        </Button>
-      </div>
-    </div>
-  );
+  const items = [
+    {
+      id: "asfdds",
+      label: "Can I use react on a project though",
+      content:
+        "You can use react on any project you want. You can use react on any project you want.You can use react on any project you want.You can use react on any project you want.You can use react on any project you want.You can use react on any project you want.",
+    },
+    {
+      id: "bsfvasdf",
+      label: "Can I use javascript on a project though",
+      content:
+        "You can use javascript on any project you want. You can use react on any project you want.You can use react on any project you want.You can use react on any project you want.You can use react on any project you want.You can use react on any project you want",
+    },
+    {
+      id: "vjasidfm",
+      label: "Can I use CSS on a project though",
+      content:
+        "You can use CSS on any project you want. You can use react on any project you want.You can use react on any project you want.You can use react on any project you want.You can use react on any project you want.You can use react on any project you want",
+    },
+  ];
+  return <Accordion items={items} />;
 }
 
 export default App;
