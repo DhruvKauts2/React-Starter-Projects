@@ -1,6 +1,6 @@
 import Accordion from "../components/Accordion";
 function AccordionPage() {
-  const items = [
+  let items = [
     {
       id: "asfdds",
       label: "Can I use react on a project though",
@@ -20,6 +20,7 @@ function AccordionPage() {
         "You can use CSS on any project you want. You can use react on any project you want.You can use react on any project you want.You can use react on any project you want.You can use react on any project you want.You can use react on any project you want",
     },
   ];
+
   return <Accordion items={items} />;
 }
 
