@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { GoChevronDown, GoChevronLeft } from "react-icons/go";
+import { useState } from 'react';
+import { GoChevronDown, GoChevronLeft } from 'react-icons/go';
 
 function Accordion({ items }) {
   const [expandedIndex, setExpandedIndex] = useState(-1);
