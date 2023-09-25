@@ -1,5 +1,5 @@
-import { useState } from "react";
-import Dropdown from "../components/Dropdown";
+import { useState } from 'react';
+import Dropdown from '../components/Dropdown';
 
 function DropdownPage() {
   const [selection, setSelection] = useState(null);
@@ -9,9 +9,9 @@ function DropdownPage() {
   };
 
   const options = [
-    { label: "Red", value: "red" },
-    { label: "Green", value: "green" },
-    { label: "Blue", value: "blue" },
+    { label: 'Red', value: 'red' },
+    { label: 'Green', value: 'green' },
+    { label: 'Blue', value: 'blue' },
   ];
 
   return (

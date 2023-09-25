@@ -1,11 +1,12 @@
-import ReactDOM from "react-dom";
-import { useEffect } from "react";
+import ReactDOM from 'react-dom';
+import { useEffect } from 'react';
 
 function Modal({ onClose, children, actionBar }) {
   useEffect(() => {
-    document.body.classList.add("overflow-hidden");
+    document.body.classList.add('overflow-hidden');
+
     return () => {
-      document.body.classList.remove("overflow-hidden");
+      document.body.classList.remove('overflow-hidden');
     };
   }, []);
 
@@ -22,7 +23,7 @@ function Modal({ onClose, children, actionBar }) {
         </div>
       </div>
     </div>,
-    document.querySelector(".modal-container")
+    document.querySelector('.modal-container')
   );
 }
 
