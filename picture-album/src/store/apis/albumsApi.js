@@ -14,9 +14,13 @@ const albumsApi = createApi({
             params: {
               userId: user.id,
             },
+            method: "GET",
           };
         },
       }),
     };
   },
 });
+
+export const { useFetchAlbumsQuery } = albumsApi;
+export { albumsApi };
