@@ -11,29 +11,9 @@
   ],
   "albums": [
     {
-      "userId": 4,
-      "title": "Intelligent Granite Chicken",
-      "id": 20
-    },
-    {
-      "userId": 4,
-      "title": "Modern Wooden Bacon",
-      "id": 22
-    },
-    {
-      "userId": 4,
-      "title": "Gorgeous Wooden Shirt",
-      "id": 24
-    },
-    {
       "userId": 5,
       "title": "Fantastic Cotton Towels",
       "id": 25
-    },
-    {
-      "userId": 4,
-      "title": "Modern Fresh Bacon",
-      "id": 26
     },
     {
       "userId": 5,
@@ -44,6 +24,21 @@
       "userId": 4,
       "title": "Tasty Plastic Towels",
       "id": 28
+    },
+    {
+      "userId": 5,
+      "title": "Awesome Soft Gloves",
+      "id": 29
+    },
+    {
+      "userId": 5,
+      "title": "Practical Rubber Salad",
+      "id": 31
+    },
+    {
+      "userId": 5,
+      "title": "Small Frozen Chips",
+      "id": 32
     }
   ],
   "photos": []
