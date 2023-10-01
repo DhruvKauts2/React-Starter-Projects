@@ -5,6 +5,7 @@ import { useRemoveAlbumMutation } from "../store";
 
 function AlbumsListItem({ album }) {
   const [removeAlbum, results] = useRemoveAlbumMutation();
+
   const handleRemoveAlbum = () => {
     removeAlbum(album);
   };
