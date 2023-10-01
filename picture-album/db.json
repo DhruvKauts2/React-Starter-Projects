@@ -5,52 +5,21 @@
       "id": 4
     },
     {
-      "name": "Lawrence Schinner",
+      "name": "Hannah Kuhic",
       "id": 5
     }
   ],
   "albums": [
     {
-      "userId": 5,
-      "title": "Fantastic Cotton Towels",
-      "id": 25
-    },
-    {
-      "userId": 5,
-      "title": "Incredible Plastic Chips",
-      "id": 27
-    },
-    {
       "userId": 4,
-      "title": "Tasty Plastic Towels",
-      "id": 28
-    },
-    {
-      "userId": 5,
-      "title": "Awesome Soft Gloves",
+      "title": "Luxurious Metal Tuna",
       "id": 29
     },
     {
-      "userId": 5,
-      "title": "Practical Rubber Salad",
-      "id": 31
-    },
-    {
-      "userId": 5,
-      "title": "Small Frozen Chips",
-      "id": 32
+      "userId": 4,
+      "title": "Unbranded Concrete Fish",
+      "id": 30
     }
   ],
-  "photos": [
-    {
-      "albumId": 28,
-      "url": "https://loremflickr.com/150/150/abstract?lock=6956156721299456",
-      "id": 2
-    },
-    {
-      "albumId": 28,
-      "url": "https://loremflickr.com/150/150/abstract?lock=7987672633049088",
-      "id": 4
-    }
-  ]
+  "photos": []
 }
